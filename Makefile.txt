@@ -1,0 +1,5 @@
+compile: cache_simulate.cpp
+	g++ cache_simulate.cpp -o cache_simulate.out
+
+cache_simulate: cache_simulate.cpp
+	./cache_simulate.out input.asm
